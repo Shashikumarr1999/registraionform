@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/898f906ea9.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <form action="/action_page.php">
+      <div class="container">
+          <div class="form">
+              <div class="contact-form">
+                  <br><h1 style="color:#8BC5EA">Genaral information</h1>
+                  <br><br>
+                  <input type="text" placeholder="Title" required><select name="Title" id="Title">
+                  <option value="Mr">Mr.</option>
+                  <option value="Mrs">Mrs.</option>
+                 </select>
+                 <br>
+                 <br>
+                 <input type="text"  name="First-Name" placeholder="First Name" required>
+                 <input type="text"  name="Last-Name" placeholder="Last Name" required>
+                 <br>
+                 <br>
+                 <input type="text"  name="Position" placeholder="Position" required>
+                 <i class="fas fa-sort-down"></i>
+                 <br><br>
+                 <input type="text"  name="Company" placeholder="Company" required>
+                <br>
+                <br>
+                <input type="text"  name="Business" placeholder="Business" required>
+                <input type="text"  name="Employee" placeholder="Employee" required>
+             </div>
+               <div class="contact-form1">
+                <form action="/action_page.php">
+                <br><h1 style="color:#FFFFFF">Contact Details</h1>
+                <br>
+                <br>
+                <input type="text"  name="Street" placeholder="Street" required>
+                <br>
+                <br>
+                <input type="text"  name="Additional information" placeholder="Additional information" required>
+                <br>
+                <br>
+                <input type="text"  name="zip code" placeholder="zip code" required>
+                <input type="text"  name="Place" placeholder="Place" required><i class="fas fa-sort-down"></i>
+                <br>
+                <input type="text"  name="Country" placeholder="Country" required><i class="fas fa-sort-down"></i>
+                <br>
+                <input type="text"  name="Code" placeholder="Code" required>
+                <input name="Phone" type="text" pattern="[6-9]{1}[0-9]{9}" class="form-control" placeholder="Phone number" required="">
+                <br>
+                <input name="email" type="text" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" class="form-control" placeholder="Your Email" id="email" required="">
+                <br>
+                <br>
+                <input type="radio" id="term" name="fav" value="term">
+                <label for="i-accept">I Accept the <u>term and condition</u> of this form</label>
+                <br>
+                <br>
+                <input type="submit" id="register" name="" value="Register">
+                </form> 
+              </div>
+          </div>
+      </div>
+
+  </body>
+</html>  
